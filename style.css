@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    overflow: hidden;
+}
+
+main {
+    overflow: hidden;
+}
+
+.header_link_icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+.header_search input {
+    border: none;
+    outline: none;
+}
+
+.header_home a {
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.header_icons ul {
+    display: flex;
+}
+
+.header_icons ul li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.header_icons ul li a {
+    font-size: 18px;
+    color: grey;
+}
+
+.header_home {
+    border: 2px solid grey;
+    padding: 10px;
+    margin-right: 120px;
+}
+
+.line {
+    border-bottom: 1px solid rgb(224, 221, 221);
+}
+
+.header_menu ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header_menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.header_menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(44, 42, 42);
+}
+
+.bars {
+    display: none;
+}
+
+.main_head {
+    display: flex;
+    width: 1400px;
+    height: 500px;
+    background-color: cadetblue;
+}
+
+.main_head img {
+    margin: 40px -40px;
+}
+
+.main_head .write {
+    margin-left: 70px;
+}
+
+.main_head .write h1 {
+    width: 300px;
+    font-size: 45px;
+    margin-top: 110px;
+}
+
+.main_head .write p {
+    width: 400px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main_head .write button {
+    padding: 10px 18px;
+    border-radius: 5px;
+    background-color: rgb(98, 71, 124);
+    color: white;
+    margin-top: 10px;
+}
+
+.main_head .write button:hover {
+    cursor: pointer;
+    background-color: rgb(131, 12, 243);
+}
+
+.main_main {
+    display: flex;
+}
+
+.ship1 {
+    width: 350px;
+    padding-top: 40px;
+    padding-left: 130px;
+    font-size: 18px;
+}
+
+.ship1 h3 i {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.ship2 {
+    width: 350px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.ship2 h3 i {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.ship3 {
+    width: 350px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.ship3 h3 i {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.main_main p {
+    padding-top: 10px;
+    color: rgb(63, 61, 61);
+}
+
+.line2 {
+    border-bottom: 1px solid rgb(83, 81, 81);
+    padding-bottom: 40px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.picture1 {
+    margin-left: 30px;
+}
+
+.picture img {
+    width: 300px;
+    height: 410px;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.picture img:hover {
+    transform: scale(1.1);
+}
+
+.main_grey {
+    width: 1400px;
+    height: 550px;
+    margin-bottom: 80px;
+    background-color: rgb(214, 209, 209);
+
+}
+
+.line3 {
+    width: 40px;
+    height: 3px;
+    background-color: blue;
+    margin-left: 640px;
+
+}
+
+
+.pictures {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 300px;
+    height: 230px;
+}
+
+.pictures img {
+    margin-left: 40px;
+}
+
+.wrote {
+    display: flex;
+}
+
+.wrote .wrote1 {
+    width: 325px;
+    height: 170px;
+    background-color: white;
+    margin-left: 140px;
+    font-size: 18px;
+}
+
+.wrote .wrote1 h3 {
+    margin-left: 115px;
+    margin-top: 30px;
+}
+
+.wrote .wrote1 p {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.wrote .wrote1 h4 {
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.wrote .wrote2 {
+    width: 325px;
+    height: 170px;
+    background-color: white;
+    margin-left: 39px;
+    font-size: 18px;
+}
+
+.wrote .wrote2 h3 {
+    margin-left: 115px;
+    margin-top: 30px;
+}
+
+.wrote .wrote2 p {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.wrote .wrote2 h4 {
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.wrote .wrote3 {
+    width: 325px;
+    height: 170px;
+    background-color: white;
+    margin-left: 39px;
+    font-size: 18px;
+}
+
+.wrote .wrote3 h3 {
+    margin-left: 115px;
+    margin-top: 30px;
+}
+
+.wrote .wrote3 p {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.wrote .wrote3 h4 {
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+.line4 {
+    width: 40px;
+    height: 3px;
+    background-color: blue;
+    margin-left: 640px;
+}
+
+.main_bigsale h1 {
+    margin-left: 605px;
+    margin-top: 10px;
+}
+
+.lorem {
+    margin-left: 850px;
+    margin-top: 150px;
+}
+
+.lorem h2 {
+    margin-left: 100px;
+}
+
+.lorem h3 {
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.lorem p {
+    width: 400px;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.lorem button {
+    padding: 10px 15px;
+    background-color: rgb(105, 73, 136);
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.lorem button:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.main_bigsale img {
+    width: 650px;
+    height: 400px;
+    margin-left: 130px;
+    margin-top: -300px;
+    border-radius: 5px;
+}
+
+.line5 {
+    border-bottom: 1px solid grey;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.navi1 {
+    margin-left: 110px;
+}
+
+.navi1 p {
+    font-size: 17px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.navi1 p:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.navi2 {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.navi2 p {
+    font-size: 17px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.navi2 p:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.navi3 {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.navi3 p {
+    font-size: 17px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.navi3 p:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.navi4 {
+    margin-left: 100px;
+}
+
+.navi4 img {
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.navi4 img {
+    width: 270px;
+    height: 140px;
+}
+
+.navi4 img:hover {
+    cursor: pointer;
+}
+
+.navi4 p {
+    font-size: 17px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.navi4 p:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.navi5 {
+    width: 300px;
+    padding-left: 20px;
+}
+
+.navi5 i {
+    margin-top: 15px;
+}
+
+.navi5 p {
+    font-size: 17px;
+}
+
+.navi5 .subscribe {
+    margin-top: 30px;
+}
+
+.navi5 .subscribe button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: rgb(108, 78, 136);
+    border-radius: 5px;
+    color: white;
+}
+
+.navi5 .subscribe button:hover {
+    background-color: rgb(138, 23, 247);
+    color: white;
+    cursor: pointer;
+}
+
+@media(max-width: 750px) {
+    .header_menu {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .write h1 {
+        font-size: 25px !important;
+    }
+
+    .write {
+        text-align: center;
+        font-size: 18px;
+        line-height: 25px;
+        position: absolute;
+        color: white;
+    }
+
+    .main_head {
+        position: relative;
+    }
+    .main_main{
+        display: block;
+    }
+    .ship1{
+        margin-left: -90px;
+    }
+    .picture{
+        display: block;
+    }
+
+}
